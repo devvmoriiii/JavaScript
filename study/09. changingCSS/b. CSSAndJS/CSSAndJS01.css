@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  padding: 50px;
+  color: lightseagreen;
+}
+
+.clicked {
+  color: tomato;
+}

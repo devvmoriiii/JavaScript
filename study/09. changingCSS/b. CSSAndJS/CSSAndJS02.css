@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  padding: 50px;
+  color: lightseagreen;
+}
+
+.clicked {
+  color: tomato;
+}
+
+.bigText {
+  font-size: 60px;
+}
+
+.underline {
+  text-decoration: underline;
+}
