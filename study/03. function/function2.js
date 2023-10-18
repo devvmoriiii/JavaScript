@@ -1,12 +1,14 @@
-const movie =  {
-  director: "Bong",
-  releaseDate: "Sep 12, 2023",
-  runningTime: "120m",
-  genre: "Action",
-  discountEvent : true,
-  greeting : function(name) {
-    console.log("Hi, " + name + "!");
-  },
+function greet(greetings, name) {
+  console.log(greetings + name);
 };
 
-movie.greeting("mori");
+greet("Hi! ", "JS");
+greet("Hello! ", "HTML");
+greet("Hola! ", "CSS");
+
+function div(a, b) {
+  console.log(a / b);
+};
+
+div(10, 5);
+div(100, 10);
