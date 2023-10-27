@@ -1,0 +1,124 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+button {
+  background: none;
+  border: none;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgb(255, 255, 255, 0.2);
+  transition: all 0.2s;
+}
+
+.all-wrap {
+  width: 50%;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.result {
+  border-bottom: 1px solid #ccc;
+  width: 500px;
+  height: 100px;
+  margin: 0px auto;
+  text-align: right;
+  background-color: rgb(81, 86, 87);
+  line-height: 100px;
+  font-size: 40px;
+  padding: 0px 20px;
+  font-weight: lighter;
+  color: #fff;
+}
+
+.clear {
+  width: 500px;
+  background-color: rgb(66, 68, 70);
+  margin: 0px auto;
+}
+
+.clear-table {
+  height: 50px;
+}
+
+.clear-table td {
+  width: 250px;
+}
+
+.clear-table td:first-of-type button {
+  width: 100%;
+  color: #fff;
+  font-size: 25px;
+  text-align: center;
+  line-height: 50px;
+}
+
+.clear-table td:last-of-type button {
+  width: 100%;
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  border-left: 1px solid #aaa;
+  line-height: 50px;
+}
+
+.num-ope {
+  width: 500px;
+  margin: 0px auto;
+  display: flex;
+}
+
+.num-table {
+  width: 350px;
+  height: 500px;
+}
+
+.ope-table {
+  width: 150px;
+  height: 500px;
+}
+
+.num-table tr {
+  background-color: rgb(115, 116, 117)
+}
+.num-table td {
+  border: 1px solid #555;
+}
+
+.ope-table tr {
+  background-color: rgb(253, 159, 11)
+}
+.ope-table td {
+  border: 1px solid #666;
+}
+
+.num-ope button {
+  width: 100%;
+  padding: 30px 20px;
+  color: #fff;
+  height: 100%;
+}
+
+.num-table button {
+  font-size: 30px;
+}
+
+.ope-table button {
+  font-size: 40px;
+}
+
+
+
