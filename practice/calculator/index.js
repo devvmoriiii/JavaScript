@@ -25,21 +25,16 @@ document.querySelector("#clear").addEventListener("click", () => {
 document.querySelector("#num1").addEventListener("click", () => {numClick("1")})
 document.querySelector("#num2").addEventListener("click", () => {numClick("2");});
 document.querySelector("#num3").addEventListener("click", () => {numClick("3")})
-document.querySelector("#num4").addEventListener("click", () => {numClick("4")
-})
-document.querySelector("#num4").addEventListener("click", () => {numClick("5")
-})
-document.querySelector("#num4").addEventListener("click", () => {numClick("6")
-})
-document.querySelector("#num4").addEventListener("click", () => {numClick("7")
-})
-document.querySelector("#num4").addEventListener("click", () => {numClick("8")
-})
-document.querySelector("#num4").addEventListener("click", () => {numClick("9")
-})
-querySelector("#dot").addEventListener("click", () => {
+document.querySelector("#num4").addEventListener("click", () => {numClick("4")})
+document.querySelector("#num5").addEventListener("click", () => {numClick("5")})
+document.querySelector("#num6").addEventListener("click", () => {numClick("6")})
+document.querySelector("#num7").addEventListener("click", () => {numClick("7")})
+document.querySelector("#num8").addEventListener("click", () => {numClick("8")})
+document.querySelector("#num9").addEventListener("click", () => {numClick("9")})
+document.querySelector("#num0").addEventListener("click", () => {numClick("0")})
+document.querySelector("#dot").addEventListener("click", () => {
   let resultText = Array.from(result.textContent);
-  if (resultText.includes(".")) {
+  if (resultText.includes(".") || resultText.length === 0) {
     return;
   } else {
     numClick(".")
