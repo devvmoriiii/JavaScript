@@ -99,7 +99,10 @@ button:hover {
 }
 
 .ope-table tr {
-  background-color: rgb(253, 159, 11)
+  background-color: rgb(253, 159, 11);
+}
+.ope-click {
+  background-color: rgb(221, 140, 11);
 }
 .ope-table td {
   border: 1px solid #666;
